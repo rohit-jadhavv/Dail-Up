@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view-profile.css">
+    <title>Profile</title>
+</head>
+
+
+<body>
+
+    <main>
+        <section class="simple-info">
+            <div class="img-profile">
+                <img src="view_profile_static/images/love-babber.jfif" alt="img-of-person" class="profile-img" id="imgs">
+            </div>
+            <div class="details-beside-image">
+                <div>
+                    <h2 class="name" id="name"></h2>
+                    <h4 class="work-i-do"></h4>
+                </div>
+                <p class="rating">Rating : <span class="current-rating" id="rating"></span><span>/10</span></p>
+            </div>
+            <div class="button-container">
+                <button id="edit_btn" onclick="window.location.href='profileform.php'">Edit Profile</button>
+            </div>
+        </section>
+        <section class="all-details">
+            <article class="about-section">
+                <h2><span>About Me</span></h2>
+                <p class="about-me" id="about">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum
+                </p>
+            </article>
+            <div class="all-details-content">
+                <h2><span>Details</span></h2>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td width="60%"></td>
+                        <td id="table_name">Shubham</td>
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td width="60%"></td>
+                        <td id="table_age">100</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td width="60%"></td>
+                        <td><a href="tel:39260238" id="table_ph">39260238</a></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td width="60%"></td>
+                        <td><a href="mailto:shubham@gmail.com" id="table_mail">shubham@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Profession</td>
+                        <td width="60%"></td>
+                        <td id="table_prof">Teacher</td>
+                    </tr>
+                </table>
+            </div>
+                <aside>
+                    <h2><span>Additional Info</span></h2>
+                    <p id="add">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, suscipit! Inventore enim dolores
+                        voluptatum, doloremque aperiam nulla vero veritatis iure! Cupiditate officiis eaque dolor eius
+                        molestias, est magni tempora tenetur.</p>
+                </aside>
+        </section>
+    </main>
+    <script src="apis.js"></script>
+</body>
+
+</html>

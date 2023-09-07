@@ -1,0 +1,137 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: black
+}
+.box-container{
+    width: 450px;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: white ;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+}
+.button-field{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    /* border: 3px solid #008cff; */
+    border: none;
+    border-radius: 35px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #008cff;
+    /* text-decoration: none; */
+    transition: 0.3s ease all;
+    z-index: 1;
+    }
+    
+    button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #008cff;
+    border-radius: 35px;
+    z-index: -1;
+    }
+    
+    button:hover, button:focus {
+    color: white;
+    cursor: pointer;
+    }
+    
+    button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    }
+    
+    button:active {
+    transform: scale(0.9);
+    }
+.input-field input{
+    height: 40px;
+    width: 85%;
+    margin: 5px 5px;
+    border:none;
+    outline: none;
+    border-radius: 35px;
+    padding: 0 0 0 45px;
+    background-color: #292929;
+    color: white;
+
+}
+
+i{
+    position: relative;
+    left: 25px;
+    top: -34px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.info-signup{
+    display: flex;
+    justify-content: center;
+}
+
+.info-signup p{
+    margin-left: 10px;
+    color: white;
+}
+.info-signup span{
+    margin-left: 8px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.info-signup p span a{
+    color: #008cff;
+    text-decoration: none;
+}
+.info-signup p span a:hover{
+    text-decoration: underline;
+}
+.audio-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
