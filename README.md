@@ -54,7 +54,8 @@ Once you have installed Dial Up and logged in, you can:
 - Access to contact information for workers.
 - File management for users.
 
-![Screenshot of Sign Up Page](https://github.com/rohit-jadhavv/Dail-Up/blob/master/assets/98208763/410c7a7b-4aac-4237-b6d3-3a17328a8257.png)
+![Screenshot of Sign Up Page](https://github.com/rohit-jadhavv/Dail-Up/assets/98208763/38ab0445-57a6-4f4a-8098-61eb676ed606)
+)
 
 ## Contributing
 
