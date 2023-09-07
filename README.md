@@ -2,7 +2,7 @@
 
 Dial Up is a web application developed using XAMPP and PHP that allows users to register, create profiles, and find workers based on their profession. It simplifies the process of connecting people with the services they need. Users can create profiles, search for professionals, and access contact information for various workers.
 
-![Screenshot of Home Page](![image](https://github.com/rohit-jadhavv/Dail-Up/assets/98208763/08e2b7ee-5600-4036-aa85-4f1422f58fc0)
+![Screenshot of Home Page](https://github.com/rohit-jadhavv/Dail-Up/assets/98208763/08e2b7ee-5600-4036-aa85-4f1422f58fc0)
 
 
 ## Table of Contents
@@ -54,7 +54,7 @@ Once you have installed Dial Up and logged in, you can:
 - Access to contact information for workers.
 - File management for users.
 
-![Screenshot of Sign UP Page](![image](https://github.com/rohit-jadhavv/Dail-Up/assets/98208763/410c7a7b-4aac-4237-b6d3-3a17328a8257)
+![Screenshot of Sign Up Page](https://github.com/rohit-jadhavv/Dail-Up/blob/master/assets/98208763/410c7a7b-4aac-4237-b6d3-3a17328a8257.png)
 
 ## Contributing
 
