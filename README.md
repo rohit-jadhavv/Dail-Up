@@ -25,15 +25,13 @@ To run Dial Up on your local system, follow these steps:
     git clone https://github.com/rohit-jadhavv/Dail-Up
     ```
 
-3. **Database Setup:** Create a MySQL database for the application and import the SQL file provided (`database.sql`) to set up the necessary tables and data.
+3. **Configuration:** Open the `config.php` file and update the database connection details to match your local environment.
 
-4. **Configuration:** Open the `config.php` file and update the database connection details to match your local environment.
+4. **Start XAMPP:** Start the Apache and MySQL services in XAMPP.
 
-5. **Start XAMPP:** Start the Apache and MySQL services in XAMPP.
+5. **Run the Application:** Open your web browser and navigate to `http://localhost/DailUP` (or the appropriate directory path where you cloned the repository).
 
-6. **Run the Application:** Open your web browser and navigate to `http://localhost/dial-up` (or the appropriate directory path where you cloned the repository).
-
-7. **Signup and Login:** Register a new account or log in to an existing one to start using Dial Up.
+6. **Signup and Login:** Register a new account or log in to an existing one to start using Dial Up.
 
 ## Usage
 
