@@ -22,7 +22,7 @@ To run Dial Up on your local system, follow these steps:
 2. **Clone the Repository:** Clone this GitHub repository to your local machine using the following command:
 
     ```shell
-    git clone https://github.com/yourusername/dial-up.git
+    git clone https://github.com/rohit-jadhavv/Dail-Up
     ```
 
 3. **Database Setup:** Create a MySQL database for the application and import the SQL file provided (`database.sql`) to set up the necessary tables and data.
